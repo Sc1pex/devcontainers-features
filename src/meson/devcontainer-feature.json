@@ -2,5 +2,8 @@
   "name": "meson",
   "id": "meson",
   "version": "0.1.0",
-  "description": "Meson is an open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible."
+  "description": "Meson is an open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible.",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  }
 }

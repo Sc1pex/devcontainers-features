@@ -2,4 +2,6 @@
 set -e
 
 echo "Installing meson"
-pip3 install meson
+apt-get update -y
+apt-get upgrade -y
+apt-get install meson -y
